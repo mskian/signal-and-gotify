@@ -28,8 +28,12 @@ header('X-Robots-Tag: noindex, nofollow', true);
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
 
     <style>
+        html, body {
+            min-height: 100vh;
+        }
         body {
             background-color: #2e2e2e;
+            padding-bottom: 20px;
             color: #d4d4d4;
             font-family: "Signika Negative", sans-serif;
         }
@@ -45,6 +49,7 @@ header('X-Robots-Tag: noindex, nofollow', true);
         }
         .button.is-link {
             font-family: "Signika Negative", sans-serif;
+            font-weight: 600;
             background-color: #6a1b9a;
             border-color: #6a1b9a;
             border-radius: 20px;
@@ -56,6 +61,7 @@ header('X-Robots-Tag: noindex, nofollow', true);
         }
         .button.is-danger {
             font-family: "Signika Negative", sans-serif;
+            font-weight: 600;
             border-color: #6a1b9a;
             border-radius: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

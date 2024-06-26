@@ -28,8 +28,12 @@ header('X-Robots-Tag: noindex, nofollow', true);
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
 
    <style>
+        html, body {
+            min-height: 100vh;
+        }
         body {
             background-color: #2e2e2e;
+            padding-bottom: 20px;
             color: #d4d4d4;
             font-family: "Signika Negative", sans-serif;
         }
